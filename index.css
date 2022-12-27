@@ -1,0 +1,112 @@
+@font-face {
+  font-family: digital;
+  src: url(digitalfont.ttf);
+}
+
+body {
+    margin: 0;  
+    
+}
+
+.title {
+    text-shadow: 0 0 5px whitesmoke;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: url("basketball-court.jpg");
+    background-size: cover;
+    width: 575px;
+    height: 385px;
+    margin: 0px auto;
+    
+}
+
+.scoreboard {
+    width: 155px;
+    height: 120px;
+    border: 1px solid black;
+    background: #080001;
+    font-family: digital;    
+    
+}
+
+h3 {
+    margin-top: 68px;
+    margin-bottom: 21px;
+    font-size: 40px;
+    color: #EEEEEE;   
+    
+}
+
+span {
+    color: #F94F6D;
+    font-size: 100px;
+}
+
+#new-btn {
+    width: 80px;
+    height: 45px;
+    margin: 20px 0;
+    color: #BAA78E;
+    background: #45332D;
+    border: 2px solid #BAA78E;
+    border-radius: 5px; 
+    
+}
+
+#timer {
+    width: 200px;
+    height: 80px; 
+    border: 2px solid black; 
+    background: #1C1C1A;
+    margin: 10px auto 0px auto;
+    padding: 8px 185px;
+    
+    text-align: center;
+}
+
+.timer-btns {
+    margin-top: 10px;
+    
+     
+}
+
+.game-btn {
+    margin-right: 20px;
+    margin-left: 20px; 
+    padding: 3px 6px; 
+    border-radius: 5px;
+    background: #45332D;
+    color: #BAA78E;
+    border: 2px solid #BAA78E;
+    border-radius: 5px; 
+}
+
+
+#timerdisplay {
+    font-family: digital;
+    color: red;
+    font-size: 30px; 
+    display: flex;
+    margin-top: 8px; 
+    padding: 2px 4px;
+    justify-content: center;
+    box-shadow: 0 0 20px; 
+}
+
+.btn {
+    margin-top: 26px;
+    margin-right: 9px; 
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px; 
+    font-size: 18px; 
+    font-family: digital;
+    font-weight: bold;
+    background:  #1B244A;
+}
